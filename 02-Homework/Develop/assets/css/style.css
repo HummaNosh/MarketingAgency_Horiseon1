@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-/* moved a and p*/
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -17,7 +17,8 @@ p {
   font-size: 16px;
 }
 
-/* Heading- away from div class in header element now */
+/* The Header (box) and headings*/
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -32,7 +33,7 @@ header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-/* moved bottom 2 sections to match html */
+
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -42,7 +43,12 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
-/* Navigation bar */
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* The Navigation bar */
 
 header nav {
   margin-right: 20px;
@@ -55,12 +61,8 @@ header nav ul {
   list-style-type: none;
 }
 
-header ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
+/* The Main body and picture CHECK IF IMG NEEDS TO MOVE TO HTML*/
 
-/* main body and picture CHECK IF IMG NEEDS TO MOVE TO HTML*/
 .hero {
   height: 800px;
   width: 100%;
@@ -70,16 +72,16 @@ header ul li {
   background-position: center;
 }
 
-/* Section and Articles - content*/
+/* Section and Articles - Class 'content'*/
 
-/* main body of section */
 section.Content {
   width: 75%;
   margin-left: 20px;
   display: inline-block;
 }
 
-/* The whole section should look the same, instead of individually, add section, article element */
+/* The whole section should look the same, instead of individually, added section and article element */
+
 section.Content article.Content {
   margin-bottom: 20px;
   padding: 50px;
@@ -88,32 +90,34 @@ section.Content article.Content {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* headings needs to be same */
+/* All headings in this section are identical */
+
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* All images need to be same size no need for individuals*/
+/* All images in this section are the same size*/
+
 section.Content article.Content img {
   max-height: 200px;
 }
 
 /* 2 images that need to stay on left */
+
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
 /* 1 image needs to stay on right */
+
 section.Content article.Content img.float-right {
   float: right;
   margin-left: 25px;
 }
-/* deleted all 1st section and article individual classes and merged into 1 */
 
-/* Benefits aside */
+/* Benefits on the right hand side */
 
-/* this whole section needs to align and match like below */
 aside.benefitSide {
   margin-right: 20px;
   padding: 20px;
@@ -125,20 +129,21 @@ aside.benefitSide {
   background-color: #2589bd;
 }
 
-/* Article needs to be the same - no need for individual ids */
+/* The whole Article is the same  */
+
 aside.benefitSide article.benefits {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-/* headings are same size, no need for individual ids */
+/* All headings are the same */
 
 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-/* all images in this article are same size */
+/* All images in this article need to be the same */
 
 aside.benefitSide article.benefits img {
   display: block;
@@ -146,7 +151,8 @@ aside.benefitSide article.benefits img {
   max-width: 150px;
 }
 
-/* Footer element */
+/* The Footer  */
+
 footer {
   padding: 30px;
   clear: both;
@@ -155,6 +161,6 @@ footer {
   text-align: center;
 }
 
-footer h2 {
+footer h3 {
   font-size: 20px;
 }
