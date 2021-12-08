@@ -61,7 +61,7 @@ header nav ul {
   list-style-type: none;
 }
 
-/* The Main body and picture CHECK IF IMG NEEDS TO MOVE TO HTML*/
+/* The Main body and picture*/
 
 .hero {
   height: 800px;
@@ -80,7 +80,7 @@ section.Content {
   display: inline-block;
 }
 
-/* The whole section should look the same, instead of individually, added section and article element */
+/* The whole section should look the same, instead of individually, I added section and article element */
 
 section.Content article.Content {
   margin-bottom: 20px;
@@ -90,13 +90,13 @@ section.Content article.Content {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* All headings in this section are identical */
+/* All headings in this section/article are identical */
 
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* All images in this section are the same size*/
+/* All images in this section/article are the same size*/
 
 section.Content article.Content img {
   max-height: 200px;
